@@ -58,8 +58,7 @@
 }
 
 .fullscreenContent {
-  padding-top: 45%;
-  transform: translateY(-50%);
+  margin-top: 30vh;
   color: grey;
 }
 
@@ -68,12 +67,20 @@
   height: 100%;
 }
 
+.profilePic {
+  width: 260px;
+  height: 210px;
+  margin: 20px;
+  border-radius: 5%;
+}
+
 p {
   font-size: 1rem;
 }
 
 .educationAccordion {
-  width: 50%;
+  width: 70%;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   color: grey;
