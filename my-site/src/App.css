@@ -53,13 +53,28 @@
 }
 
 .fullscreenItem {
-  height: 100%;
+  height: 100vh;
   width: 100%;
+}
+
+.fullscreenContent {
+  padding-top: 45%;
+  transform: translateY(-50%);
+  color: grey;
 }
 
 .aboutPage {
   width: 100%;
   height: 100%;
-  color: grey;
 }
 
+p {
+  font-size: 1rem;
+}
+
+.educationAccordion {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: grey;
+}

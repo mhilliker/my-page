@@ -8,9 +8,10 @@ class About extends React.Component {
     render() {
         return (
             <FullscreenItem id="aboutPage">
-                <div className="aboutPage">
+                <div className="aboutPage fullscreenContent">
                    <Jumbotron>
-                    <h1>Hello, I am Mark Hilliker</h1>
+                    <h1>Hello, I am Mark Hilliker!</h1>
+                    <div>image here</div>
                     <p>
                     I am a software engineer in the healthcare tech industry in Madison, Wisconsin.
                     My professional interests include full stack web development, machine learning, and data analytics.
@@ -20,7 +21,7 @@ class About extends React.Component {
                     </p>
                     </Jumbotron>
                 </div >
-            </FullscreenItem >
+            </FullscreenItem>
         );
     }
 }

@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import About from './components/about';
+import Education from './components/education';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           Learn React
         </a> */}
         <About />
+        <Education />
       </header>
       <Footer />
     </div>
