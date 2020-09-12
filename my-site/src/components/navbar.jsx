@@ -1,26 +1,23 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-function Navbar() {
+function SiteNavbar() {
     return (
-        <Nav>
-            <Nav.Item>
-                <Nav.Link href="#aboutPage" eventKey="link-about">About</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-education" href="#educationPage">Education</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-work">Work Experience</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-projects">Projects</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-contacts">Contact</Nav.Link>
-            </Nav.Item>
-        </Nav>
+        <Navbar bg="light" expand="lg" fixed="top">
+            <Navbar.Brand href="#home">Mark Hilliker</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link href="#aboutPage">About</Nav.Link>
+                    <Nav.Link href="#educationPage">Education</Nav.Link>
+                    <Nav.Link href="#workPage">Work Experience</Nav.Link>
+                    <Nav.Link href="#projectsPage">Projects</Nav.Link>
+                    <Nav.Link href="#contactPage">Contact</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     );
 }
 
-export default Navbar;
+export default SiteNavbar;
