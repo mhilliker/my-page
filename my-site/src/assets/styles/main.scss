@@ -116,6 +116,15 @@ p {
   }
 }
 
+.workPage {
+  margin-top: 15vh;
+  
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
 
@@ -145,5 +154,5 @@ p {
       width: 100%;
     }
   }
-
 }
+

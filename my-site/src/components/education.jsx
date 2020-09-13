@@ -26,7 +26,7 @@ class Education extends React.Component {
 
 function EducationAccordion() {
     return (
-        <Accordion defaultActiveKey="0" className="educationAccordion">
+        <Accordion className="educationAccordion">
             <Card>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="0">

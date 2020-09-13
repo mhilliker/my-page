@@ -18,7 +18,7 @@ class About extends React.Component {
                     My professional interests include full stack web development, machine learning, and data analytics.
                     </p>
                     <p>
-                        <Button variant="primary">Learn more</Button>
+                        <Button variant="primary" href="#educationPage">Learn more</Button>
                     </p>
                     </Jumbotron>
                 </div >

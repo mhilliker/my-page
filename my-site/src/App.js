@@ -5,6 +5,7 @@ import SiteNavbar from './components/navbar';
 import Footer from './components/footer';
 import About from './components/about';
 import Education from './components/education';
+import Work from './components/workexperience';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <header className="App-header">
         <About />
         <Education />
+        <Work />
       </header>
       <Footer />
     </div>
