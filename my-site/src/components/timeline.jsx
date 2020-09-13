@@ -21,22 +21,22 @@ export function Timeline(props) {
 }
 
 export function TimelineEntry(props) {
-    const icon = props.icon ? <img src={props.icon} class="iconImg" /> : ">";
+    const icon = props.icon ? <img src={props.icon} class="iconImg" alt="company logo" /> : ">";
 
     return (
         <div className="timeline-entry">
             <div className="timeline-entry-inner">
                 <div className="timeline-icon">{icon}</div>
-                <div className="timeline-label">
-                    <h2>
-                        {props.jobTitle}
-                        <span>{props.date}</span>
-                    </h2>
-                    <h2>
-                        {props.jobLocation}
-                        <span>{props.location}</span>
-                    </h2>
-                    <h5>{props.company}</h5>
+                <div className="timeline-entry-content">
+                    <div className="timeline-header">
+                        <h2 className="timeline-header-text">{props.jobTitle}</h2>
+                        <span className="timeline-header-detail">{props.date}</span>
+                    </div>
+                    <div className="timeline-header">
+                        <h3 className="timeline-header-text">{props.company}</h3>
+                        <span className="timeline-header-detail">{props.location}</span>
+                    </div>
+                    
                     {props.children}
                 </div>
             </div>
@@ -46,7 +46,7 @@ export function TimelineEntry(props) {
 
 export function TimelineEntryDescription(props) {
     return (
-        <p>{props.children}</p>
+        <p className="timeline-entry-description">{props.children}</p>
     );
 }
 
