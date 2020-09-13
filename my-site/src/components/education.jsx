@@ -44,7 +44,7 @@ function EducationAccordion() {
             <Card>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                        Bachelors of Science in Computer Science
+                        Bachelor of Science in Computer Science
                                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
@@ -58,7 +58,7 @@ function EducationAccordion() {
             <Card>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                        Bachelors of Arts in Mathematics
+                        Bachelor of Arts in Mathematics
                                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
