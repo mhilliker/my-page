@@ -4,8 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function SiteNavbar() {
     return (
-        <Navbar bg="light" expand="lg" fixed="top">
-            <Navbar.Brand href="#home">Mark Hilliker</Navbar.Brand>
+        <Navbar bg="light" expand="lg" fixed="top" collapseOnSelect>
+            <Navbar.Brand href="#aboutPage">Mark Hilliker</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
