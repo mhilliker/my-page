@@ -50,8 +50,8 @@ function EducationAccordion() {
                 <Accordion.Collapse eventKey="1">
                     <Card.Body>
                     <EducationInfoGroup degree="BS in Computer Science" date="2013 - 2016" school="Arizona State University" gpa="3.73"
-                            courses={["Maching Learning", "Data Mining", "Mobile Computing", "Data Visualization", "Distributed Systems", 
-                            "Deep Learning in Visual Computing", "Artificial Intelligence", "Software Testing"]} />
+                            courses={["Distributed Software Development", "Database Management", "Computer-Aided Geometric Design", "Algorithms and Data Structures", 
+                            "Cryptographic Algorithms and Protocols", "Operating Systems"]} />
                     </Card.Body>
                 </Accordion.Collapse>
             </Card>
@@ -64,8 +64,8 @@ function EducationAccordion() {
                 <Accordion.Collapse eventKey="2">
                     <Card.Body>
                     <EducationInfoGroup degree="BA in Mathematics" date="2013 - 2016" school="Arizona State University" gpa="3.73"
-                            courses={["Maching Learning", "Data Mining", "Mobile Computing", "Data Visualization", "Distributed Systems", 
-                            "Deep Learning in Visual Computing", "Artificial Intelligence", "Software Testing"]} />
+                            courses={["Applied Statistics", "Probability", "Numerical Analysis", "Complex Analysis", "Intro to Graph Theory", 
+                            "Partial Differential Equations", "Cryptography"]} />
                     </Card.Body>
                 </Accordion.Collapse>
             </Card>
