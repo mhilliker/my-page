@@ -12,7 +12,7 @@ function SiteNavbar() {
                     <Nav.Link href="#aboutPage">About</Nav.Link>
                     <Nav.Link href="#educationPage">Education</Nav.Link>
                     <Nav.Link href="#workPage">Work Experience</Nav.Link>
-                    <Nav.Link href="#projectsPage">Projects</Nav.Link>
+                    {/* To do when I make public projects <Nav.Link href="#projectsPage">Projects</Nav.Link> */}
                     <Nav.Link href="#contactPage">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
